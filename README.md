@@ -5,7 +5,7 @@
 ### ⬇️ 내가 만든 화면
 <img src="https://user-images.githubusercontent.com/83416999/119216948-c0e4f280-bb11-11eb-9de4-7e381315f3e9.png" width="200rem" >
 
-## 요약
+## 정리
  - ZStack 을 이용해 background의 Color를 black으로 맞춰준다. ```Color.black.edgeIgnoringSafeArea(.all)```
  - Circle View 안에 숫자(1,2,3,...9)와 같이 Text View 를 넣을 수 있는 것은 CircleTextView()로 정리했고, SF Symbols 의 수학 파트의 emoji를 넣은 것은 CircleImageView() 로 정리했다.
  - Calculator App 에는 CircleView의 HStack 5개가 VStack 안에 있는 구조이므로 맨 위부터 HStack의 이름을 lineOne(),lineTwo() ... 등으로 정리해 ContentView의 가독성을 좋게 하였고 별도의 View의 관리도 쉽게 만들었다.
