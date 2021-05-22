@@ -10,18 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-//            Color.black
-//                .edgesIgnoringSafeArea(.all)
-            VStack {
-                Text("0")
-                    .foregroundColor(.white)
-                    .font(.system(size: 80, weight: .bold, design: .default))
-                HStack(spacing: 10){
-                    CircleTextView(bgColor: Color.gray, calText: "AC", fontColor: Color.black)
-                    CircleTextView(bgColor: Color.gray, calText: "d", fontColor: Color.black)
-                    CircleTextView(bgColor: Color.gray, calText: "%", fontColor: Color.black)
-                    CircleTextView(bgColor: Color.gray, calText: "AC", fontColor: Color.black)
-                } // HStack !!
+            Color.black
+                .edgesIgnoringSafeArea(.all)
+            VStack(alignment: .trailing){
+                Spacer()
+                    Text("0")
+                        .foregroundColor(.white)
+                        .font(.system(size: 80, weight: .bold, design: .default))
+                        .padding([.top, .trailing], 15)
+                Spacer()
+                    .frame(height: 30)
+                lineOne()
+                lineTwo()
+                lineThree()
+                lineFour()
+                lineFive()
             } // VStack !!
         } // ZStack !!
     }

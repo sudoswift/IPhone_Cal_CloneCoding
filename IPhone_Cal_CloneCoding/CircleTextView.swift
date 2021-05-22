@@ -19,7 +19,7 @@ struct CircleTextView: View {
             .frame(width: 90, height: 90)
             .overlay(
                 Text(calText) // calText
-                    .font(.title)
+                    .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(fontColor) // fontColor
             )
