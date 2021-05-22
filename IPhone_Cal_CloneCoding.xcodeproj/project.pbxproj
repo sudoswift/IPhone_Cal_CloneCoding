@@ -12,6 +12,7 @@
 		6F5DE4F42658C6F100C52BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5DE4F32658C6F100C52BE0 /* Assets.xcassets */; };
 		6F5DE4F72658C6F100C52BE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5DE4F62658C6F100C52BE0 /* Preview Assets.xcassets */; };
 		6F5DE4FF2658CC7600C52BE0 /* CircleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DE4FE2658CC7600C52BE0 /* CircleTextView.swift */; };
+		6F5DE5012658CEC000C52BE0 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DE5002658CEC000C52BE0 /* CircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6F5DE4F62658C6F100C52BE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F5DE4F82658C6F100C52BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F5DE4FE2658CC7600C52BE0 /* CircleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTextView.swift; sourceTree = "<group>"; };
+		6F5DE5002658CEC000C52BE0 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				6F5DE4EF2658C6F000C52BE0 /* IPhone_Cal_CloneCodingApp.swift */,
 				6F5DE4F12658C6F000C52BE0 /* ContentView.swift */,
+				6F5DE5002658CEC000C52BE0 /* CircleImageView.swift */,
 				6F5DE4FE2658CC7600C52BE0 /* CircleTextView.swift */,
 				6F5DE4F32658C6F100C52BE0 /* Assets.xcassets */,
 				6F5DE4F82658C6F100C52BE0 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5DE5012658CEC000C52BE0 /* CircleImageView.swift in Sources */,
 				6F5DE4F22658C6F000C52BE0 /* ContentView.swift in Sources */,
 				6F5DE4F02658C6F000C52BE0 /* IPhone_Cal_CloneCodingApp.swift in Sources */,
 				6F5DE4FF2658CC7600C52BE0 /* CircleTextView.swift in Sources */,

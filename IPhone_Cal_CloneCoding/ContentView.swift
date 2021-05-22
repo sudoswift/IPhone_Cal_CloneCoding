@@ -17,18 +17,10 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .font(.system(size: 80, weight: .bold, design: .default))
                 HStack(spacing: 10){
-                    Circle()
-                        .foregroundColor(.gray)
-                        .frame(width: 90, height: 90)
-                    Circle()
-                        .foregroundColor(.gray)
-                        .frame(width: 90, height: 90)
-                    Circle()
-                        .foregroundColor(.gray)
-                        .frame(width: 90, height: 90)
-                    Circle()
-                        .foregroundColor(.gray)
-                        .frame(width: 90, height: 90)
+                    CircleTextView(bgColor: Color.gray, calText: "AC", fontColor: Color.black)
+                    CircleTextView(bgColor: Color.gray, calText: "d", fontColor: Color.black)
+                    CircleTextView(bgColor: Color.gray, calText: "%", fontColor: Color.black)
+                    CircleTextView(bgColor: Color.gray, calText: "AC", fontColor: Color.black)
                 } // HStack !!
             } // VStack !!
         } // ZStack !!
