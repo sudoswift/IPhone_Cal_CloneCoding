@@ -10,9 +10,9 @@ import SwiftUI
 struct lineTwo: View {
     var body: some View {
         HStack(spacing: 10){
-            CircleTextView(bgColor: Color.gray, calText: "7", fontColor: Color.white)
-            CircleTextView(bgColor: Color.gray, calText: "8", fontColor: Color.white)
-            CircleTextView(bgColor: Color.gray, calText: "9", fontColor: Color.white)
+            CircleTextView(bgColor: Color("charcoal"), calText: "7", fontColor: Color.white)
+            CircleTextView(bgColor: Color("charcoal"), calText: "8", fontColor: Color.white)
+            CircleTextView(bgColor: Color("charcoal"), calText: "9", fontColor: Color.white)
             CircleImageView(IbgColor: Color.orange, calImg: "multiply", ifontColor: Color.white)
         }
     }

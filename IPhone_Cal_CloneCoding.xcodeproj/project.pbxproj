@@ -18,6 +18,7 @@
 		6F5DE5072658D2AA00C52BE0 /* lineThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DE5062658D2AA00C52BE0 /* lineThree.swift */; };
 		6F5DE5092658D2B200C52BE0 /* lineFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DE5082658D2B200C52BE0 /* lineFour.swift */; };
 		6F5DE50B2658D2B800C52BE0 /* lineFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DE50A2658D2B800C52BE0 /* lineFive.swift */; };
+		6F5DE50D2658D9C400C52BE0 /* RecTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DE50C2658D9C400C52BE0 /* RecTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		6F5DE5062658D2AA00C52BE0 /* lineThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineThree.swift; sourceTree = "<group>"; };
 		6F5DE5082658D2B200C52BE0 /* lineFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineFour.swift; sourceTree = "<group>"; };
 		6F5DE50A2658D2B800C52BE0 /* lineFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineFive.swift; sourceTree = "<group>"; };
+		6F5DE50C2658D9C400C52BE0 /* RecTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				6F5DE5062658D2AA00C52BE0 /* lineThree.swift */,
 				6F5DE5082658D2B200C52BE0 /* lineFour.swift */,
 				6F5DE50A2658D2B800C52BE0 /* lineFive.swift */,
+				6F5DE50C2658D9C400C52BE0 /* RecTextView.swift */,
 				6F5DE5002658CEC000C52BE0 /* CircleImageView.swift */,
 				6F5DE4FE2658CC7600C52BE0 /* CircleTextView.swift */,
 				6F5DE4F32658C6F100C52BE0 /* Assets.xcassets */,
@@ -165,6 +168,7 @@
 				6F5DE4F22658C6F000C52BE0 /* ContentView.swift in Sources */,
 				6F5DE5072658D2AA00C52BE0 /* lineThree.swift in Sources */,
 				6F5DE4F02658C6F000C52BE0 /* IPhone_Cal_CloneCodingApp.swift in Sources */,
+				6F5DE50D2658D9C400C52BE0 /* RecTextView.swift in Sources */,
 				6F5DE5092658D2B200C52BE0 /* lineFour.swift in Sources */,
 				6F5DE5052658D29800C52BE0 /* lineTwo.swift in Sources */,
 				6F5DE4FF2658CC7600C52BE0 /* CircleTextView.swift in Sources */,

@@ -19,7 +19,7 @@ struct CircleImageView: View {
             .frame(width: 90, height: 90)
             .overlay(
                 Image(systemName: calImg) // calImg
-                    .font(Font.system(size: 50, weight: .medium))
+                    .font(Font.system(size: 40, weight: .medium))
                     .foregroundColor(ifontColor) // ifontColor
             )
     }
